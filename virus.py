@@ -1,7 +1,7 @@
 import os
 import fnmatch
 
-path = '/host-rootfs/storage/'
+path = '/host-rootfs/storage/' #change this dir you want
 
 for dirpath, dirnames, filenames in os.walk(path):
 
